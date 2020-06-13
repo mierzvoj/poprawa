@@ -10,11 +10,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Class" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1dG38axEpEOHJ5Yo7a85sn061D3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,9 +30,10 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/javax/validation/validation-api/2.0.0.Final/validation-api-2.0.0.Final.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="configurable.group.other" />
   </component>
   <component name="RunManager">
@@ -67,7 +73,15 @@
       <workItem from="1592038165441" duration="216000" />
       <workItem from="1592038420181" duration="55000" />
       <workItem from="1592038536927" duration="414000" />
-      <workItem from="1592039005499" duration="2339000" />
+      <workItem from="1592039005499" duration="2514000" />
+      <workItem from="1592041609254" duration="816000" />
+      <workItem from="1592042453389" duration="103000" />
+      <workItem from="1592042567971" duration="621000" />
+      <workItem from="1592043208905" duration="27000" />
+      <workItem from="1592043240784" duration="11000" />
+      <workItem from="1592043292474" duration="117000" />
+      <workItem from="1592043425929" duration="61000" />
+      <workItem from="1592043514320" duration="3247000" />
     </task>
     <servers />
   </component>
@@ -75,25 +89,37 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="645" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1592040480725">
+    <state x="432" y="166" key="#Project_Structure" timestamp="1592045684865">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state x="645" y="224" key="#com.intellij.ide.util.MemberChooser/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592040480725" />
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1592041262732">
+    <state x="432" y="166" key="#Project_Structure/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592045684865" />
+    <state x="645" y="224" key="#com.intellij.ide.util.MemberChooser" timestamp="1592046054130">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.bottom/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592041262732" />
-    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1592041262731">
+    <state x="645" y="224" key="#com.intellij.ide.util.MemberChooser/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592046054130" />
+    <state x="620" y="249" key="FileChooserDialogImpl" timestamp="1592042308394">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.center/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592041262731" />
-    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1592041262731">
+    <state x="620" y="249" key="FileChooserDialogImpl/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592042308394" />
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom" timestamp="1592046794300">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.left/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592041262731" />
-    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1592041262731">
+    <state width="1637" height="272" key="GridCell.Tab.0.bottom/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592046794300" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center" timestamp="1592046794300">
       <screen x="0" y="0" width="1680" height="1010" />
     </state>
-    <state width="1637" height="272" key="GridCell.Tab.0.right/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592041262731" />
+    <state width="1637" height="272" key="GridCell.Tab.0.center/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592046794300" />
+    <state width="1637" height="272" key="GridCell.Tab.0.left" timestamp="1592046794300">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.left/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592046794300" />
+    <state width="1637" height="272" key="GridCell.Tab.0.right" timestamp="1592046794300">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state width="1637" height="272" key="GridCell.Tab.0.right/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592046794300" />
+    <state x="320" y="82" key="SettingsEditor" timestamp="1592045520602">
+      <screen x="0" y="0" width="1680" height="1010" />
+    </state>
+    <state x="320" y="82" key="SettingsEditor/-1440.0.1440.860/0.0.1680.1010@0.0.1680.1010" timestamp="1592045520602" />
   </component>
 </project>

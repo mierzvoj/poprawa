@@ -7,9 +7,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import java.lang.annotation.*;
 
 public class Shop {
 
+   // @ShopAnn(key = "-1")
+    String shopName;
     Product product;
     Customer customer;
 
@@ -51,7 +54,7 @@ public class Shop {
         return this.prodListToSale;
     }
 
-    public List<Product> findAllSold() {
+    public List<Product> findAllForSale() {
         return this.prodListSold;
     }
     public void addProd(int prodId, String prodName, int price) {

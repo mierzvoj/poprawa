@@ -3,22 +3,22 @@ package pjatk;
 import java.math.*;
 
 public class Product {
-    int prodId;
+    int productId;
     String prodName;
     int price;
 
     public Product(int prodId, String prodName, int price) {
-        this.prodId = prodId;
+        this.productId = prodId;
         this.prodName = prodName;
         this.price = price;
     }
 
     public int getProdId() {
-        return prodId;
+        return productId;
     }
 
     public void setProdId(int prodId) {
-        this.prodId = prodId;
+        this.productId = prodId;
     }
 
     public String getProdName() {
@@ -41,7 +41,7 @@ public class Product {
     @Override
     public String toString() {
         return "Product{" +
-                "prodId=" + prodId +
+                "prodId=" + productId +
                 ", prodName='" + prodName + '\'' +
                 ", price=" + price +
                 '}';
