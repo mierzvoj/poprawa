@@ -9,6 +9,8 @@ public class Main {
         sh1.addProd(123, "Soap", 20);
         sh1.sell(123, 44);
         sh1.removeProduct(123, "Soap", 20);
+
+        
 */
         ShopService shop1 = new ShopService();
         shop1.addProd(123, "Soap", 25);
